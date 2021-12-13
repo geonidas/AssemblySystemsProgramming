@@ -1,0 +1,76 @@
+
+------------------------------------ 
+display byte variables 
+bVar1: 	0x600144:	31
+bVar2: 	0x600145:	13
+bAns1: 	0x600146:	44
+bAns2: 	0x600147:	18
+
+display byte variables in hex 
+bVar1: 	0x600144:	0x1f
+bVar2: 	0x600145:	0x0d
+bAns1: 	0x600146:	0x2c
+bAns2: 	0x600147:	0x12
+
+------------------------------------ 
+display word variables 
+wVar1: 	0x600148:	3924
+wVar2: 	0x60014a:	1943
+wAns1: 	0x60014c:	5867
+wAns2: 	0x60014e:	1981
+
+display word variables in hex 
+wVar1: 	0x600148:	0x0f54
+wVar2: 	0x60014a:	0x0797
+wAns1: 	0x60014c:	0x16eb
+wAns2: 	0x60014e:	0x07bd
+
+------------------------------------ 
+display double word variables 
+dVar1: 	0x600150:	174632105
+dVar2: 	0x600154:	124789360
+dVar3: 	0x600158:	-56237
+dAns1: 	0x60015c:	299421465
+dAns2: 	0x600160:	49842745
+
+display double word variables in hex
+dVar1: 	0x600150:	0x0a68aca9
+dVar2: 	0x600154:	0x07702270
+dVar3: 	0x600158:	0xffff2453
+dAns1: 	0x60015c:	0x11d8cf19
+dAns2: 	0x600160:	0x02f88a39
+
+------------------------------------ 
+display real values in decimal 
+flt1: 	0x600164:	-14.25
+flt2: 	0x600168:	7.125
+fourPi: 	0x60016c:	9.42477036
+
+display real values in hex
+flt1: 	0x600164:	0xc1640000
+flt2: 	0x600168:	0x40e40000
+fourPi: 	0x60016c:	0x4116cbdc
+
+------------------------------------ 
+display real values in decimal 
+qVar1: 	0x600170:	123169427153
+
+------------------------------------ 
+display strings (first 6) as decimal / characters 
+myClass: 	0x600178:	67 'C'	83 'S'	32 ' '	50 '2'	49 '1'	56 '8'
+edName: 	0x60017f:	69 'E'	100 'd'	32 ' '	74 'J'	111 'o'	114 'r'
+myName: 	0x60018c:	71 'G'	105 'i'	111 'o'	118 'v'	97 'a'	110 'n'
+
+display strings (first 6) as hex 
+myClass: 	0x600178:	0x43	0x53	0x20	0x32	0x31	0x38
+edName: 	0x60017f:	0x45	0x64	0x20	0x4a	0x6f	0x72
+myName: 	0x60018c:	0x47	0x69	0x6f	0x76	0x61	0x6e
+
+display strings as strings 
+myClass: 	0x600178:	"CS 218"
+edName: 	0x60017f:	"Ed Jorgensen"
+myName: 	0x60018c:	"Giovanni Mueco"
+
+------------------------------------ 
+
+ 
