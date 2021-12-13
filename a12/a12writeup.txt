@@ -1,0 +1,154 @@
+The results appear as though having more threads made the execution time
+in my program noticably longer.  This could be a result of having multiple 
+pthread functions running right after another doing the same calculations.
+Also, the results were different depending on the amount of cores I was using, 
+if the desired result was that they would be the same, then this was a mistake
+my code that I was not able to find in time.  The NO LOCK results had different
+results from their WITH LOCK counterparts.  This could be explained by the 
+fact that having no lock in the program while multiple threads are processing, 
+would result in increments happening onto the primeCount variable simultaneously.
+
+
+
+
+$ time ./a12 -s -l 10000000
+*******************************************
+Primes Program
+
+--------------------------------------
+Start Prime Count
+ ...Thread starting...
+Prime Count: 524101
+
+Completed.
+
+real	0m1.792s
+user	0m1.792s
+sys	0m0.000s
+
+
+$ time ./a12 -p -l 10000000
+*******************************************
+Primes Program
+
+--------------------------------------
+Start Prime Count
+ ...Thread starting...
+ ...Thread starting...
+ ...Thread starting...
+Prime Count: 1774303
+
+Completed.
+
+real	0m2.251s
+user	0m6.403s
+sys	0m0.001s
+
+
+$ time ./a12 -s -l 100000000
+*******************************************
+Primes Program
+
+--------------------------------------
+Start Prime Count
+ ...Thread starting...
+Prime Count: 4421517
+
+Completed.
+
+real	0m24.978s
+user	0m24.973s
+sys	0m0.005s
+
+
+$ time ./a12 -p -l 100000000
+*******************************************
+Primes Program
+
+--------------------------------------
+Start Prime Count
+ ...Thread starting...
+ ...Thread starting...
+ ...Thread starting...
+Prime Count: 15464755
+
+Completed.
+
+real	0m30.898s
+user	1m28.418s
+sys	0m0.004s
+
+
+
+
+
+;;NO LOCK
+
+$ time ./a12 -s -l 10000000
+*******************************************
+Primes Program
+
+--------------------------------------
+Start Prime Count
+ ...Thread starting...
+Prime Count: 524101
+
+Completed.
+
+real	0m1.793s
+user	0m1.792s
+sys	0m0.000s
+
+
+$ time ./a12 -p -l 10000000
+*******************************************
+Primes Program
+
+--------------------------------------
+Start Prime Count
+ ...Thread starting...
+ ...Thread starting...
+ ...Thread starting...
+Prime Count: 1770434
+
+Completed.
+
+real	0m2.255s
+user	0m6.418s
+sys	0m0.000s
+
+
+$ time ./a12 -p -l 10000000
+*******************************************
+Primes Program
+
+--------------------------------------
+Start Prime Count
+ ...Thread starting...
+ ...Thread starting...
+ ...Thread starting...
+Prime Count: 1770434
+
+Completed.
+
+real	0m2.255s
+user	0m6.418s
+sys	0m0.000s
+
+
+$ time ./a12 -p -l 10000000
+*******************************************
+Primes Program
+
+--------------------------------------
+Start Prime Count
+ ...Thread starting...
+ ...Thread starting...
+ ...Thread starting...
+Prime Count: 1770434
+
+Completed.
+
+real	0m2.255s
+user	0m6.418s
+sys	0m0.000s
