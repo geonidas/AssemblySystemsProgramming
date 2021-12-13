@@ -1,0 +1,32 @@
+--------------------------------------------------
+CS 218 - Assignment #9
+
+Enter Value (octal): Error, invalid number. Please re-enter.
+Enter Value (octal): Enter Value (octal): Error, invalid number. Please re-enter.
+Enter Value (octal): Error, invalid number. Please re-enter.
+Enter Value (octal): Error, invalid number. Please re-enter.
+Enter Value (octal): Error, invalid number. Please re-enter.
+Enter Value (octal): Error, invalid number. Please re-enter.
+Enter Value (octal): Enter Value (octal): Enter Value (octal): Error, invalid number. Please re-enter.
+Enter Value (octal): Error, invalid number. Please re-enter.
+Enter Value (octal): Enter Value (octal): Error, invalid number. Please re-enter.
+Enter Value (octal): Enter Value (octal): Error, invalid number. Please re-enter.
+Enter Value (octal): Error, invalid number. Please re-enter.
+Enter Value (octal): Enter Value (octal): Error, invalid number. Please re-enter.
+Enter Value (octal): --------------------------------------------------
+
+Program Results
+
+Sorted Cube Areas List: 
+     0       0       0       0       0  
+     0  
+
+  Count       =             6
+  Minimum     =             0
+  Maximum     =             0
+  Median      =             0
+  Sum         =             0
+  Average     =             0
+  Three Sum   =             0
+  e-statistic =             0
+

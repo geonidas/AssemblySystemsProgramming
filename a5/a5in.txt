@@ -1,0 +1,52 @@
+#------------------------------------
+# CS 218
+#   Assignment #5
+#   Debugger Script File
+#------------------------------------
+echo \n\n
+break last
+run
+set pagination off
+set logging file a5out.txt
+set logging overwrite
+set logging on
+set prompt
+echo \n
+echo ------------------------------------ \n
+echo display double word variables \n
+echo sides: \t
+x/100uh &sides
+echo length: \t
+x/uw &length
+echo caMin: \t
+x/uh &caMin
+echo caMid: \t
+x/uh &caMid
+echo caMax \t
+x/uh &caMax
+echo caSum \t
+x/uw &caSum
+echo caAve: \t
+x/uh &caAve
+echo cvMin: \t
+x/uw &cvMin
+echo cvMid: \t
+x/uw &cvMid
+echo cvMax \t
+x/uw &cvMax
+echo cvSum \t
+x/uw &cvSum
+echo cvAve: \t
+x/uw &cvAve
+echo cubeAreas: \t
+x/100uh &cubeAreas
+echo cubeVolumes: \t
+x/100uw &cubeVolumes
+echo \n
+echo ------------------------------------ \n
+echo \n \n
+set logging off
+quit
+
+
+

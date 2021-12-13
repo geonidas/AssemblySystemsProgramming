@@ -1,0 +1,78 @@
+#------------------------------------
+# CS 218
+#   Assignment #4
+#   Debugger Script File
+#------------------------------------
+echo \n\n
+break last
+run
+set pagination off
+set logging file a4out.txt
+set logging overwrite
+set logging on
+set prompt
+echo \n
+echo ------------------------------------ \n
+echo display double word variables \n
+echo lst: \t
+x/100dw &lst
+echo len: \t
+x/dw &len
+echo lstMin: \t
+x/dw &lstMin
+echo lstMid: \t
+x/dw &lstMid
+echo lstMax \t
+x/dw &lstMax
+echo lstSum \t
+x/dw &lstSum
+echo lstAve: \t
+x/dw &lstAve
+echo posCnt: \t
+x/dw &posCnt
+echo posSum: \t
+x/dw &posSum
+echo posAve: \t
+x/dw &posAve
+echo threeCnt: \t
+x/dw &threeCnt
+echo threeSum: \t
+x/dw &threeSum
+echo threeAve: \t
+x/dw &threeAve
+echo \n
+echo display double word variables in hex\n
+echo lst: \t
+x/100xw &lst
+echo len: \t
+x/xw &len
+echo lstMin: \t
+x/xw &lstMin
+echo lstMid: \t
+x/xw &lstMid
+echo lstMax \t
+x/xw &lstMax
+echo lstSum \t
+x/xw &lstSum
+echo lstAve: \t
+x/xw &lstAve
+echo posCnt: \t
+x/xw &posCnt
+echo posSum: \t
+x/xw &posSum
+echo posAve: \t
+x/xw &posAve
+echo threeCnt: \t
+x/xw &threeCnt
+echo threeSum: \t
+x/xw &threeSum
+echo threeAve: \t
+x/xw &threeAve
+echo \n
+echo ------------------------------------ \n
+echo \n \n
+set logging off
+quit
+
+
+

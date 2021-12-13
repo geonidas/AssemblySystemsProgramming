@@ -1,0 +1,58 @@
+--------------------------------------------------
+CS 218 - Assignment #9
+
+Enter Value (octal): Enter Value (octal): Enter Value (octal): Error, invalid number. Please re-enter.
+Enter Value (octal): Enter Value (octal): Error, invalid number. Please re-enter.
+Enter Value (octal): Enter Value (octal): Enter Value (octal): Enter Value (octal): Error, invalid number. Please re-enter.
+Enter Value (octal): Error, invalid number. Please re-enter.
+Enter Value (octal): Enter Value (octal): Error, invalid number. Please re-enter.
+Enter Value (octal): Enter Value (octal): Error, invalid number. Please re-enter.
+Enter Value (octal): Error, invalid number. Please re-enter.
+Enter Value (octal): Error, invalid number. Please re-enter.
+Enter Value (octal): Error, invalid number. Please re-enter.
+Enter Value (octal): Error, invalid number. Please re-enter.
+Enter Value (octal): Enter Value (octal): Error, invalid number. Please re-enter.
+Enter Value (octal): Error, invalid number. Please re-enter.
+Enter Value (octal): Error, invalid number. Please re-enter.
+Enter Value (octal): Error, invalid number. Please re-enter.
+Enter Value (octal): Error, invalid number. Please re-enter.
+Enter Value (octal): Error, invalid number. Please re-enter.
+Enter Value (octal): Error, invalid number. Please re-enter.
+Enter Value (octal): Error, invalid number. Please re-enter.
+Enter Value (octal): Error, invalid number. Please re-enter.
+Enter Value (octal): Enter Value (octal): Error, invalid number. Please re-enter.
+Enter Value (octal): Error, invalid number. Please re-enter.
+Enter Value (octal): Error, invalid number. Please re-enter.
+Enter Value (octal): Enter Value (octal): Error, invalid number. Please re-enter.
+Enter Value (octal): Error, invalid number. Please re-enter.
+Enter Value (octal): Error, invalid number. Please re-enter.
+Enter Value (octal): Error, invalid number. Please re-enter.
+Enter Value (octal): Error, invalid number. Please re-enter.
+Enter Value (octal): Error, invalid number. Please re-enter.
+Enter Value (octal): Enter Value (octal): Error, invalid number. Please re-enter.
+Enter Value (octal): Error, invalid number. Please re-enter.
+Enter Value (octal): Error, invalid number. Please re-enter.
+Enter Value (octal): Error, invalid number. Please re-enter.
+Enter Value (octal): Enter Value (octal): Enter Value (octal): Enter Value (octal): Error, invalid number. Please re-enter.
+Enter Value (octal): Error, invalid number. Please re-enter.
+Enter Value (octal): Error, invalid number. Please re-enter.
+Enter Value (octal): Error, invalid number. Please re-enter.
+Enter Value (octal): Error, invalid number. Please re-enter.
+Enter Value (octal): Error, invalid number. Please re-enter.
+Enter Value (octal): Error, invalid number. Please re-enter.
+Enter Value (octal): Error, invalid number. Please re-enter.
+Enter Value (octal): Enter Value (octal): Error, invalid number. Please re-enter.
+Enter Value (octal): Error, invalid number. Please re-enter.
+Enter Value (octal): Error, invalid number. Please re-enter.
+Enter Value (octal): Error, invalid number. Please re-enter.
+Enter Value (octal): Error, invalid number. Please re-enter.
+Enter Value (octal): Error, invalid number. Please re-enter.
+Enter Value (octal): Enter Value (octal): Enter Value (octal): Error, invalid number. Please re-enter.
+Enter Value (octal): Error, invalid number. Please re-enter.
+Enter Value (octal): Error, invalid number. Please re-enter.
+Enter Value (octal): Enter Value (octal): Enter Value (octal): Error, invalid number. Please re-enter.
+Enter Value (octal): Enter Value (octal): Error, user input exceeded length, input ignored. Please re-enter.
+
+
+Program Results
+
